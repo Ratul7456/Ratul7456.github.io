@@ -1,0 +1,631 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  font-family: agency fb;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*header menu section start*/
+
+.navbar {
+  box-shadow: 0px 0px 0px 0px;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+}
+.navbar-nav {
+}
+
+.nav-item a {
+  font-size: 20px;
+}
+/*.mennus:hover a {
+  transform: translateX(5px);
+  transition: .8s;
+  background-color: #f1f1f1;
+}*/
+.drops {
+  background-color: #020A58;
+  transition: 1s;
+}
+.blogger:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu:hover .dropdown-item {
+  /*background-color: green;*/
+  color: white;
+}
+.dropdown-item {
+  color: white;
+  padding-top: 0px;
+}
+.dropdown-item:hover {
+  background-color: rgba(233, 236, 239, .0);
+}
+.dropdown-menu a:hover {
+  /*background-color:  #020A58;*/
+  transform: translateX(5px);
+  transition: 1s;
+}
+
+.nav-link{
+  position: relative;
+  color: indigo;
+}
+
+.nav-link:after{
+  content: '';
+  position: absolute;
+  width: 0; 
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 10;
+  background: #00095E;
+  transition: width .2s ease;
+  -webkit-transition: width .5s ease;
+}
+ 
+.nav-link:hover:after{
+  width: 55%;
+  left: 20px;
+  background: #80A1FF;
+}
+/*header menu section end*/
+
+
+
+/*header bg image section start*/
+
+.bg-image-sec {
+  height: 450px;
+  background-image: url('image/h1_hero4.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-texts h1 {
+  margin-top: 170px;
+  margin-left: 40%;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+
+  position: absolute;
+}
+
+/*header bg image section end*/
+/*header bg image section end*/
+
+
+
+/*about us section start*/
+
+.aboutpng {
+
+}
+.aboutpng img {
+  width: 82%;
+  display: inline-block;
+  margin: auto;
+}
+.aboutext p {
+  margin-top: 90px;
+/*  margin-left: 120px;*/
+  color: #ACC5FD;
+  font-size: 25px;
+}
+.aboutext h1 {
+/*  margin-left: 120px;*/
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: tahoma;
+}
+.aboutext span {
+  display: block;
+/*  margin-left: 120px;*/
+  margin-top: 25px;
+  color: gray;
+  font-size: 22px;
+  line-height: 1.7;
+}
+.aboutext a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 40px;
+  background-color: #FFC800;
+  color: white;
+/*  margin-left: 120px;*/
+  border-radius: 4px;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.aboutext a:hover {
+  box-shadow: inset 0 100px 0 0 #030A50;
+}
+
+
+/*about us section end*/
+/*about us section end
+
+
+/*customers say section start*/
+
+.gradient {
+  height: 580px;
+  background-image: linear-gradient(to right, #7293FE, #CD97E5 85%);
+  padding: 0px;
+  margin: 0px;  
+}
+.gradient h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 120px;
+  font-size: 50px;
+}
+.gradient p {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  font-size: 28px;
+}
+.imgs {
+  width: 49%;
+  float: left;
+  position: relative;
+}
+.imgs img {
+  display: block;
+  float: right;
+}
+.textu {
+  width: 50%;
+  float: right;
+  
+}
+.textu h5 {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.textu h6 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*customers say section end*/
+/*customers say section end*/
+
+
+/*travel service FAQ section start*/
+
+.faq {
+
+}
+.faq h5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: skyblue;
+}
+.faq h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #1A2D6D;
+}
+
+
+/*travel service faq section end*/
+/*travel service faq section end*/
+
+.text-side {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+#accordion {
+  border: none;
+}
+.card {
+  border: none;
+  outline: none;
+}
+.card-header {
+background-color: white;
+overflow: hidden;
+}
+.card-header h5 a {
+  font-size: 21px;
+  text-transform: capitalize;
+  color: #030946;
+  font-family: agency fb;
+  font-weight: bold;
+}
+.card-header h5 a span {
+  font-size: 35px;
+  font-weight: normal;
+  display: none;
+}
+
+.card-body {
+  color: grey;
+  font-size: 20px;
+}
+
+.buttonbtn {
+
+}
+.buttonbtn a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 46px;
+  background-color: #FFC800;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.buttonbtn a:hover {
+  box-shadow: inset 0 100px 0 0 #030A50;
+}
+
+/*accordion section end*/
+/*accordion section end*/
+
+
+
+/*blur gallery section start*/
+
+.containerr {
+  background-color: #142355;
+}
+
+
+.slider2 {
+  background-color: 
+}
+.item2 {
+  height: 250px;
+  background-image: url("image/instra1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.blurs {
+  background-color: rgb(255, 165, 0, .3);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.item2:hover .blurs {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.blurs a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: none;
+  transition: .6s;
+}
+.item2:hover a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: block;
+  transform: translateY(10px);
+  transition: .6s;
+}
+.item3 {
+  height: 250px;
+  background-image: url("image/instra2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.blurs2 {
+  background-color: rgb(255, 165, 0, .3);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.item3:hover .blurs2 {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.blurs a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: none;
+}
+.item3:hover a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: block;
+}
+.item4 {
+  height: 250px;
+  background-image: url("image/instra3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.blurs3 {
+  background-color: rgb(255, 165, 0, .3);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.item4:hover .blurs3 {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.blurs3 a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: none;
+}
+.item4:hover a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: block;
+}
+.item5 {
+  height: 250px;
+  background-image: url("image/instra4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.blurs4 {
+  background-color: rgb(255, 165, 0, .3);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.item5:hover .blurs4 {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.blurs4 a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: none;
+}
+.item5:hover a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: block;
+}
+.item6 {
+  height: 250px;
+  background-image: url("image/instra5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.blurs5 {
+  background-color: rgb(255, 165, 0, .3);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.item6:hover .blurs5 {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.blurs5 a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: none;
+}
+.item6:hover a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: block;
+}
+.item7 {
+  height: 250px;
+  background-image: url("image/instra4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.blurs6 {
+  background-color: rgb(255, 165, 0, .3);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.item7:hover .blurs6 {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.blurs6 a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: none;
+}
+.item7:hover a i {
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: block;
+}
+/*blur gallery section end*/
+/*blur gallery section end*/
+
+
+
+
+/*footer section start*/
+
+.class-fluid {
+  /*height: 450px;*/
+  background-color: #142355;
+}
+
+.rowss {
+  background-color: #142355;
+}
+
+.col-logo {
+}
+.col-logo a {
+  display: inline-block;
+  /*margin-top: 70px;*/
+}
+.col-logo p {
+  margin-top: 40px;
+  color: #8A8FBE;
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: "Josefin Sans",sans-serif;
+}
+.social {/*
+  margin-top: -55px;*/
+}
+.social a {
+  padding: 0px 9px;
+  font-size: 21px;
+  color: white;
+  transition: .6s;
+
+}
+.social a:hover {
+  z-index: 15;
+  color: #E0B20C;
+  transform: translateY(-5px);
+  transition: .6s;
+}
+.menu-title {
+  /*margin-top: 70px;*/
+}
+.menu-title h4 {
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.menu-title ul {
+  list-style: none;
+}
+.menu-title a {
+  font-family: "Josefin Sans",sans-serif;
+  display: inline-block;
+  padding: 7px 0px;
+  color: #8A8FBE;
+}
+.menu-title a:hover {
+  color: white;
+}
+
+.menu-title2 {/*
+  margin-top: 70px;*/
+}
+.menu-title2 h4 {
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.menu-title2 ul {
+  list-style: none;
+}
+.menu-title2 a {
+  font-family: "Josefin Sans",sans-serif;
+  display: inline-block;
+  padding: 7px 0px;
+  color: #8A8FBE;
+}
+.menu-title2 a:hover {
+  color: white;
+}
+.address {
+
+  margin-top: 70px;
+}
+.address h4 {
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 19px;
+  margin-bottom: 25px;
+
+}
+
+.address p:nth-child(2) {
+  color: #8A8FBE;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 15px;
+}
+
+.address p:nth-child(3) {
+  color: #8A8FBE;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 17px;
+}
+.number a {
+  display: inline-block;
+  color: #FFC800;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 22px;
+}
+/*footer section end*/
+/*footer section end*/
+
+
+.footer-text-end p {
+  font-size: 16px;
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  padding: 20px 0px 0px 0px;
+}
+/*footer bottom section end*/
+/*footer bottom section end*/

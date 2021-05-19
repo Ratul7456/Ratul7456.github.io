@@ -1,0 +1,518 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  font-family: agency fb;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*header menu section start*/
+
+.navbar {
+  box-shadow: 0px 0px 0px 0px;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+}
+.navbar-nav {
+}
+
+.nav-item a {
+  font-size: 20px;
+}
+/*.mennus:hover a {
+  transform: translateX(5px);
+  transition: .8s;
+  background-color: #f1f1f1;
+}*/
+.drops {
+  background-color: #020A58;
+  transition: 1s;
+}
+.blogger:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu:hover .dropdown-item {
+  /*background-color: green;*/
+  color: white;
+}
+.dropdown-item {
+  color: white;
+  padding-top: 0px;
+}
+.dropdown-item:hover {
+  background-color: rgba(233, 236, 239, .0);
+}
+.dropdown-menu a:hover {
+  /*background-color:  #020A58;*/
+  transform: translateX(5px);
+  transition: 1s;
+}
+
+.nav-link{
+  position: relative;
+  color: indigo;
+}
+
+.nav-link:after{
+  content: '';
+  position: absolute;
+  width: 0; 
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 10;
+  background: #00095E;
+  transition: width .2s ease;
+  -webkit-transition: width .5s ease;
+}
+ 
+.nav-link:hover:after{
+  width: 55%;
+  left: 20px;
+  background: #80A1FF;
+}
+/*header menu section end*/
+
+
+/*header bg image section start*/
+
+.bg-image-sec {
+  height: 450px;
+  background-image: url('image/h1_hero5.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-texts h1 {
+  margin-top: 170px;
+  margin-left: 40%;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+
+  position: absolute;
+}
+
+/*header bg image section end*/
+/*header bg image section end*/
+
+
+/*col left image section start*/
+
+.class-class {
+  background-color: #FFFFFF;
+  position: relative;
+  box-shadow: -3px 3px 15px -1px rgba(221,221,221,0.8);
+}
+
+.date {
+  height: 86px;
+  width: 90px;
+  background-color: #7EA0FF;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 35px;
+  border-radius: 6px;
+}
+.date a {
+  text-decoration: none;
+}
+.date h3:nth-child(1) {
+  color: white;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.date h3:nth-child(2) {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+}
+.date:hover {
+  background-color: rgba(137, 188, 231, .0);
+}
+.date:hover h3:nth-child(1) {
+  color: skyblue;
+  font-size: 22px;
+}
+.date:hover h3:nth-child(2) {
+  color: skyblue;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.google h4 {
+  color: black;
+  font-weight: bold;
+  margin-top: 65px;
+  margin-left: 35px;
+  font-family: lulo;
+}
+.google h4:hover {
+  color: #7EA0FF;
+}
+.class-class p {
+  margin-left: 35px;
+  margin-top: 25px;
+  font-size: 17px;
+  color: grey;
+  font-family: lulo;
+}
+.icons {
+  margin-left: 35px;
+}
+.icons a i {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.icons a:nth-child(1):hover i {
+  color: #7EA0FF;
+}
+.icons a:nth-child(2):hover i {
+  color: #7EA0FF;
+}
+
+
+
+/*div click_page start*/
+.click_page {
+  /*height: 46px;*/
+  /*width: 370px;*/
+  /*background-color: red;*/
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*div left_arrow start*/
+.left_arrow {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: 3px;
+  border: 3px solid #f1f1f1;
+}
+
+.left_arrow a i {
+  padding: 12px 13px;
+  font-size: 13px;
+  color: gray;
+}
+.left_arrow:hover {
+  background-color: #D5C455;
+}
+.left_arrow a i:hover {
+  color: white;
+}
+/*div left_arrow end*/
+
+/*div one start*/
+.one {
+  height: 40px;
+  width: 40px;
+  background-color: #D5C455;
+  margin: 3px;
+  border: 3px solid #f1f1f1;
+}
+.one a {
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  color: white;
+  padding: 6px 15px;
+  color: gray;
+
+}
+/*div one end*/
+
+/*div two start*/
+.two {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: 3px;
+  border: 3px solid #f1f1f1;
+}
+.two a {
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  padding: 6px 15px;
+  color: gray;
+}
+.two:hover {
+  background-color: #D5C455;
+}
+.two a:hover {
+  color: white;
+}
+/*div two end*/
+
+/*div right_arrow start*/
+.right_arrow {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: 3px;  
+  border: 3px solid #f1f1f1;
+}
+.right_arrow a i {
+  padding: 12px 15px;
+  font-size: 13px;
+  color: gray;
+}
+.right_arrow:hover {
+  background-color: #D5C455;
+}
+.right_arrow:hover a {
+  color: white;
+}
+/*div right_arrow end*/
+/*div click_page end*/
+
+
+/*div category start*/
+.cat {
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: lulo;
+}
+.anchors a {
+  display: inline-block;
+  padding: 0px;
+
+  font-family: lulo;
+  color: gray;
+  font-size: 18px;
+}
+.anchor:hover {
+
+  color: #7EA0FF;
+}
+/*div category end*/
+/*div category end*/
+
+
+
+/*col left image section end*/
+/*col left image section end*/
+
+
+
+/*recent post section start*/
+.post-item {
+}
+.media-body a {
+  display: inline-block;
+  text-decoration: none;
+}
+.media-body a h3 {
+  color: #2d2d2d;
+  padding: 0px 15px;
+  font-size: 20px;
+  margin-top: 8px;
+  font-family: lulo;
+}
+.media-body h3:hover {
+  color: #7EA0FF;
+}
+.media-body p {
+  font-family: lulo;
+}
+/*recent post section end*/
+/*recent post section end*/
+
+
+
+/*tag section start*/
+.once {
+
+}
+.once a {
+  display: inline-block;
+  padding: 5px 23px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #f1f1f1;
+  margin: 5px;
+  color: gray;
+}
+.once a:hover {
+  background-color: #7EA0FF;
+  color: white;
+}
+/*tag section end*/
+/*tag section end*/
+
+
+
+/*news letter section start*/
+.inputer {
+
+}
+.inputer input[type=email] {
+  padding: 10px 215px 10px 20px;
+  border: 1px solid #d2d2d2;
+  outline: none;
+}
+.buttoner button {    
+  background-color: #7EA0FF;
+    border: 1px solid #7EA0FF;
+    color: #fff!important;
+    display: inline-block;
+    padding: 10px 139px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.buttoner button:hover {
+  background-color: white;
+  border: 1px solid #7EA0FF;
+  color: #7EA0FF!important;
+}
+/*news letter section end*/
+/*news letter section end*/
+
+
+
+
+
+/*footer section start*/
+
+.class-fluid {
+  /*height: 450px;*/
+  background-color: #142355;
+}
+
+.rowss {
+  background-color: #142355;
+}
+
+.col-logo {
+}
+.col-logo a {
+  display: inline-block;
+  /*margin-top: 70px;*/
+}
+.col-logo p {
+  margin-top: 40px;
+  color: #8A8FBE;
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: "Josefin Sans",sans-serif;
+}
+.social {/*
+  margin-top: -55px;*/
+}
+.social a {
+  padding: 0px 9px;
+  font-size: 21px;
+  color: white;
+  transition: .6s;
+
+}
+.social a:hover {
+  z-index: 15;
+  color: #E0B20C;
+  transform: translateY(-5px);
+  transition: .6s;
+}
+.menu-title {
+  /*margin-top: 70px;*/
+}
+.menu-title h4 {
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.menu-title ul {
+  list-style: none;
+}
+.menu-title a {
+  font-family: "Josefin Sans",sans-serif;
+  display: inline-block;
+  padding: 7px 0px;
+  color: #8A8FBE;
+}
+.menu-title a:hover {
+  color: white;
+}
+
+.menu-title2 {/*
+  margin-top: 70px;*/
+}
+.menu-title2 h4 {
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.menu-title2 ul {
+  list-style: none;
+}
+.menu-title2 a {
+  font-family: "Josefin Sans",sans-serif;
+  display: inline-block;
+  padding: 7px 0px;
+  color: #8A8FBE;
+}
+.menu-title2 a:hover {
+  color: white;
+}
+.address {
+
+  margin-top: 70px;
+}
+.address h4 {
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 19px;
+  margin-bottom: 25px;
+
+}
+
+.address p:nth-child(2) {
+  color: #8A8FBE;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 15px;
+}
+
+.address p:nth-child(3) {
+  color: #8A8FBE;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 17px;
+}
+.number a {
+  display: inline-block;
+  color: #FFC800;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 22px;
+}
+/*footer section end*/
+/*footer section end*/
+
+
+.footer-text-end p {
+  font-size: 16px;
+  color: white;
+  font-family: "Josefin Sans",sans-serif;
+  padding: 20px 0px 0px 0px;
+}
+/*footer bottom section end*/
+/*footer bottom section end*/
